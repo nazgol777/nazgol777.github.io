@@ -1,0 +1,1028 @@
+@import url('./_roboto.css');
+@import url('./_reset.css');
+
+body,html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+}
+
+.main-container {
+    margin: auto;
+    width: 1440px;
+    background-color: white;
+    overflow-y: hidden;
+}
+
+.header {
+    width: 1440px;
+    height: 700px;
+    background-image: url('../img/Background.png');
+    padding: 46px 248px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    .first-leyer {
+        color: white;
+        font-weight: 700;
+        width: 884px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .log_in_sing_up {
+        display: flex;
+    }
+
+    .sing-up {
+        margin-left: 20px;
+        height: 34px;
+        width: 90px;
+        border: 1px solid white;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .second-leyer {
+        height: 518px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 50px;
+        color: white;
+        position: relative;
+        line-height: 0;
+    }
+
+    .text {
+       font-size: 20px;
+       margin-top: 39px;  
+    }
+
+    input[type=button] {
+        font-size: 16px;
+        background-color: #C83F49;
+        border: none;
+        color: white;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 39px;
+    }
+}
+
+.section1 {
+    padding-top: 101px;    
+
+    .dream-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .How-Dreamshare-works {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    }
+
+    .first-card {
+    background-image: url('../img/Bitmap.png'); 
+    width: 300px;
+    height: 400px;
+    position: relative;
+    border-radius: 5px;
+
+    input[type=button] {
+        font-size: 13px;
+        background-color: #C83F49;
+        color: white;
+        height: 20px;
+        width: 70px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 30px;
+    }
+
+    .other {
+        position: absolute;
+        bottom: 20px;
+        margin-left: 24px;
+
+        .up-text {
+            margin-bottom: 32px;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .low-text {
+            color: white;
+        }
+    }
+
+    }
+
+    .container-cards {
+    margin-left: 249px;
+    display: flex;
+    }
+
+    .Second-card {
+    background-image: url('../img/Bitmap2.png');
+    width: 300px;
+    height: 400px;
+    margin: 0 21px 0 21px;
+    position: relative;
+    border-radius: 5px;
+
+    input[type=button] {
+        font-size: 13px;
+        background-color: #C83F49;
+        color: white;
+        height: 20px;
+        width: 70px;
+        border: none;
+        border-radius: 25px;
+        margin-bottom: 30px;
+    }
+
+    .other2 {
+        position: absolute;
+        bottom: 20px;
+        margin-left: 24px;
+    }
+
+    .up-text2 {
+        margin-bottom: 32px;
+         font-size: 20px;
+         font-weight: 700;
+         color: white;
+    }
+
+    .low-text2 {
+        color: white;
+    }
+    }
+
+    .third-card {
+        background-image: url('../img/Bitmap3.png');
+        width: 300px;
+        height: 400px;
+        position: relative;
+        border-radius: 5px;
+
+        input[type=button] {
+            font-size: 13px;
+            background-color: #C83F49;
+            color: white;
+            height: 20px;
+            width: 70px;
+            border: none;
+            border-radius: 25px;
+            margin-bottom: 30px;
+        }
+    
+        .other3 {
+            position: absolute;
+            bottom: 20px;
+            margin-left: 24px;
+        }
+    
+        .up-text3 {
+            margin-bottom: 32px;
+             font-size: 20px;
+             font-weight: 700;
+             color: white;
+        }
+    
+        .low-text3 {
+            color: white;
+        }
+    }
+}
+
+.just-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Meet-a-partner-text {
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 101px;
+        margin-bottom: 40px;
+    }
+
+    .Meet-a-partner-holiday {
+        margin-left: 54px;  
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 101px;
+        margin-bottom: 40px;  
+    }
+
+
+    .avatars {
+        display: flex;
+        width: 941px;
+        margin: auto;
+    }   
+
+    .second-leyer-avatar1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 20px;
+        line-height: 0;
+    }
+
+    .text2 {
+        position: relative;
+        right: 10px;
+        font-size: 13px;
+    }
+
+    .img-avatar1 {
+        margin-bottom: 23px;
+    }
+
+    .first-avatar {
+        margin-left: 51px;
+    }
+
+    .second-avatar {
+        margin-right: 30px;
+    }
+
+
+    .first-leyer-avatar1 p{
+        font-weight: 700;
+        margin-bottom: 28px;
+    }
+
+    .text3 {
+        margin-top: 23px;
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .text4 {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .m {
+        position: relative;
+        left: -20px;
+    }
+
+    .text2 {
+        width: 220px;
+    }
+
+    .text5 {
+        font-size: 14px;
+        position: relative;
+        left: 40px;
+    }
+
+    .lol {
+        position: relative; 
+        right: 40px;
+    }
+
+    .button4 {
+        border: 2px solid red;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: red;
+        font-weight: 700;
+        margin-top: 60px;
+        margin-bottom: 102px
+    }
+
+    .title-section2 {
+        margin: auto;
+        font-size: 25px;
+        font-weight: 700;
+        width: 400px;
+        margin-bottom: 40px;
+    }
+
+    $height: 310px;
+    $width: 300px;
+    
+    .img1 {
+    height: $height;
+    width: $width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(226, 221, 221);
+    font-weight: 700;
+    border-radius: 5px;
+    }
+
+    .p {
+        background-image: url('../img/Object1.png');
+        margin-left: 249px;
+    }
+
+    .images-first-leyer {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .img2 {
+        background-image: url('../img/health.png');
+        @extend .img1;
+        margin-left: 20px;
+    }
+
+    .img3 {
+        @extend .img1; 
+        margin-left: 20px;
+        background-image: url('../img/sports.png');
+    }
+
+    .images-second-leyer {
+        display: flex;
+    }
+
+    .img4 {
+        @extend .img1; 
+        margin-left: 249px;
+        background-image: url('../img/games.png'); 
+    }
+
+    .img5 {
+        @extend .img1;
+        margin-left: 20px;
+        background-image: url('../img/idk.png');
+        width: 620px;
+    }
+
+    .third-leyer {
+        margin-top: 20px;
+        display: flex
+    }
+
+    .img6 {
+        @extend .img1;
+        margin-left: 249px;
+        background-image: url('../img/rekax.png');
+        width: 620px;
+    }
+
+        .img7 {
+        @extend .img1;
+        margin-left: 20px;
+        background-image: url('../img/treveling.png');
+        }
+
+        .section3 {
+            display: flex;
+            justify-content: center;   
+        }
+
+        .hi {
+            position: relative;
+            left: 100px;
+            margin-bottom: 20px;
+        }
+
+        input[type=text] {
+            border: 1px solid gray;
+            height: 40px;
+            width: 299px;
+            margin-bottom: 92px;
+        }
+
+        .button-Search {
+            background-color: #FF4E50;
+            color: white;
+            border: none;
+            width: 172px;
+            height: 40px;
+            border-radius: 40px;
+        }
+
+        .footer {
+            border-top: 2px solid #FF4E50ed;
+            height: 258px;
+            box-sizing: border-box;
+            padding-left: 249px;
+            padding-top: 36px;
+            display: flex;
+        }
+
+        .DREAMSHARE2 {
+            color: #FF4E50;
+        }
+
+        .second-column {
+            margin-left: 120px;
+            display: flex;
+            flex-direction: column;
+            line-height: 24px;
+            color: gray;
+        }
+
+        .Company {
+            margin-bottom: 19px;
+            color: black;
+            font-weight: 700;
+        }
+
+        .third-column p{
+            @extend .Company;
+        }
+
+        .third-column{ 
+            @extend .second-column;
+        }
+
+        .fourth-column {
+            position: relative;
+            right: -249px;
+        }
+
+        .DREAMSHARE-hidden {
+            display: none;
+        }
+
+        .fullfill-it-hidden {
+            display: none;
+        }
+
+        @media screen and (max-width: 1039px) and (min-width: 900px) {
+            
+            
+            .main-container {
+                margin: auto;
+                width: 768px;
+                background-color: white;
+                height: 4300px;
+            }
+            
+            
+            .header {
+                width: 768px;
+                height: 700px;
+                background-image: url('../img/Background.png');
+                padding: 46px 48px;
+                background-repeat: no-repeat;
+                background-position: center;
+                box-sizing: border-box;
+            
+                .first-leyer {
+                    color: white;
+                    font-weight: 700;
+                    width: 674px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+            
+                .log_in_sing_up {
+                    display: flex;
+                }
+            
+                .sing-up {
+                    margin-left: 20px;
+                    height: 34px;
+                    width: 90px;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: -10px;
+                }
+            
+                .second-leyer {
+                    height: 518px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    font-size: 50px;
+                    color: white;
+                    position: relative;
+                }
+            
+                .text {
+                   font-size: 20px;
+                   margin-top: 39px;  
+                }
+            
+                input[type=button] {
+                    font-size: 16px;
+                    background-color: #C83F49;
+                    border: none;
+                    color: white;
+                    height: 40px;
+                    border-radius: 10px;
+                    margin-top: 39px;
+                }
+            }
+
+            .section1 {
+                padding-top: 101px;
+
+            .container-cards {
+                display: flex;
+                margin-left: 10px;
+                width: 750px;
+                }
+            }
+
+            .third-card {
+                background-image: url('../img/Bitmap3.png');
+                width: 206px;
+                height: 400px;
+                background-position: center;
+            }
+
+            .first-card {
+                background-image: url('../img/Bitmap3.png');
+                width: 206px;
+                height: 400px;
+                background-position: center;
+            }
+
+            .Second-card {
+                background-image: url('../img/Bitmap3.png');
+                width: 206px;
+                height: 400px;
+                background-position: center;
+
+                
+            input[type=button] {
+                position: relative;
+                top: 20px;
+            }
+
+                .up-text2 {
+                    width: 100px;
+                    position: relative;
+                    top: 20px;
+                }
+            }
+
+            .just-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                width: 768px;
+            }
+
+            .cont {
+                display: flex;
+            }
+
+            .container-avatar3-avatar4 {
+                display: flex;
+            }
+
+            .avatars {
+                display: flex;
+                width: 768px;
+                margin: auto;
+                flex-wrap: wrap;
+                padding-left: 138px;
+            }  
+
+            .second-avatar {
+                margin-left: 41px;
+                margin-right: 0px;
+            }
+
+            .v {
+                margin-top: 54px;
+            }           
+
+    .p {
+        background-image: url('../img/Object1.png');
+        margin-left: 0px;
+        width: 236px;
+    }
+
+    .images-first-leyer {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 10px
+    }
+
+    .img2 {
+        background-image: url('../img/health.png');
+        margin-left: 20px;
+        width: 236px;
+    }
+
+    .img3 {
+        margin-left: 20px;
+        background-image: url('../img/sports.png');
+        width: 236px;
+    }
+
+    .images-second-leyer {
+        display: flex;
+    }
+
+    .img4 { 
+        margin-left: 10px;
+        background-image: url('../img/games.png');
+        width: 236px; 
+    }
+
+    .img5 {
+        margin-left: 20px;
+        background-image: url('../img/idk.png');
+        width: 492px;
+    }
+
+    .third-leyer {
+        margin-top: 20px;
+        display: flex
+    }
+
+    .img6 {
+        margin-left: 10px;
+        background-image: url('../img/rekax.png');
+        width: 492px;
+    }
+
+        .img7 {
+        margin-left: 20px;
+        background-image: url('../img/treveling.png');
+        width: 236px;
+        }
+
+        .section3 {
+            display: flex;
+        }
+
+        .questions {
+            padding-left: 143px;
+        }
+
+        .footer {
+            padding-left: 39px;
+        }
+        
+        .second-column {
+            margin-left: 106px;
+        }
+
+        .third-column {
+            margin-left: 60px;
+        }
+    
+        .fourth-column {
+            position: relative;
+            right: -109px;
+            top: -10px;
+        }
+        }
+
+        @media screen and (max-width: 900px) and (min-width: 200px) {
+   
+            .main-container {
+                margin: auto;
+                width: 320px;
+                background-color: white;
+                height: 5100px;
+            }
+            
+            
+            .header {
+                width: 320px;
+                height: 540px;
+                background-image: url('../img/Background.png');
+                padding: 46px 48px;
+                background-repeat: no-repeat;
+                background-position: center;
+                box-sizing: border-box;
+            
+                .first-leyer {
+                    color: white;
+                    font-weight: 700;
+                    width: 174px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 40px;
+                }
+
+            
+                .log_in_sing_up {
+                    display: flex;
+                }
+            
+                .sing-up {
+                    margin-left: 20px;
+                    height: 34px;
+                    width: 90px;
+                    border: 1px solid white;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: -10px;
+                }
+            
+                .second-leyer {
+                    height: 518px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    font-size: 50px;
+                    color: white;
+                    position: relative;
+                }
+            
+                .text {
+                   font-size: 20px;
+                   margin-top: 39px;  
+                }
+            
+                input[type=button] {
+                    font-size: 16px;
+                    background-color: #C83F49;
+                    border: none;
+                    color: white;
+                    height: 40px;
+                    border-radius: 10px;
+                    margin-top: 39px;
+                }
+
+                .DREAMSHARE-normal {
+                    display: none;
+                }
+
+                .DREAMSHARE-hidden {
+                    display: block;
+                    font-size: 15px;
+                }
+
+                .SHARE-YOUR {
+                    width: 300px;
+                    font-size: 24px;
+                    margin-left: 140px;
+                }
+
+                .HOLIDAY-DREAM {
+                    width: 300px;
+                    font-size: 27px;
+                    margin-left: 90px;
+                }
+
+                .text {
+                    width: 240px;
+                    font-size: 16px;
+                    margin-left: 40px;
+                }
+
+                .fullfill-it {
+                    display: none;
+                }
+            }
+
+            .fullfill-it-hidden {
+                display: block;
+                font-size: 16px;
+            }
+
+        .second-leyer {
+            margin-top: -50px;
+        }
+
+        .third-card {
+            background-image: url('../img/Bitmap3.png');
+            width: 300px;
+            height: 240px;
+            background-position: center;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .first-card {
+            background-image: url('../img/Bitmap3.png');
+            width: 300px;
+            height: 240px;
+            background-position: center;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .Second-card {
+            background-image: url('../img/Bitmap3.png');
+            width: 300px;
+            height: 240px;
+            background-position: center;
+            position: relative;
+            border-radius: 5px;
+            right: 21px;
+
+            
+        input[type=button] {
+            position: relative;
+            top: 20px;
+        }
+
+            .up-text2 {
+                position: relative;
+                top: 20px;
+            }
+        }
+
+        .section1 {
+
+        .container-cards {
+            display: flex;
+            margin-left: 10px;
+            flex-direction: column;
+            }
+        }
+
+        .best-holiday {
+            margin-left: 60px;
+        }
+
+        .Meet-a-partner-holiday {
+            margin-left: 26px;
+        }
+
+        .avatars {
+            display: flex;
+            width: 768px;
+            margin: auto;
+            flex-direction: column;
+            padding-left: 100px;
+        }  
+
+        .first-avatar {
+            margin: 0 0 0; 
+            margin-bottom: 25px;
+        }
+
+        .second-avatar {
+            margin-bottom: 25px;
+        }
+
+
+        .images-first-leyer {
+        flex-wrap: wrap;
+        width: 500px;
+        }
+
+        .images-second-leyer {
+        flex-wrap: wrap;
+        }
+
+        .third-leyer {
+        flex-wrap: wrap;
+        }
+
+        .hahah {
+            width: 300px;
+            height: 120px;
+            background-position: bottom;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        .img2 {
+            background-image: url('../img/health.png');
+            @extend .hahah;
+        }
+    
+        .img3 {
+            background-image: url('../img/sports.png');
+            @extend .hahah;
+        }
+    
+        .images-second-leyer {
+            display: flex;
+        }
+    
+        .img4 {
+            background-image: url('../img/games.png'); 
+            @extend .hahah;
+            margin-top: 0;
+        }
+    
+        .img5 {
+            background-image: url('../img/idk.png');
+            @extend .hahah;
+        }
+    
+        .third-leyer {
+            display: flex
+        }
+    
+        .img6 {
+            background-image: url('../img/rekax.png');
+            @extend .hahah;
+            margin-top: 0;
+        }
+    
+            .img7 {
+            background-image: url('../img/treveling.png');
+            @extend .hahah;
+            }
+        
+            .Discover-text {
+                width: 250px;
+                margin-left: 65px
+            }
+
+            .activity-ideas {
+                margin-left: 20px;
+            }
+
+            .Meet-a-partner-text {
+                margin-left: 54px;    
+            }
+
+            .activity-text {
+                margin-left: 60px;
+            }
+
+            .hi {
+                position: relative;
+                left: 24px;
+            }
+
+            .input-and-button {
+                input[type=text] {
+                    width: 280px;
+                    position: relative;
+                    left: 19px;
+                }
+
+                input[type=button] {
+                    position: relative;
+                    top: -81px;
+                    left: 20px;
+                    width: 280px;
+                }
+            }
+
+            .footer {
+                padding-left: 105px;
+                flex-wrap: wrap;
+            }
+
+            .About-Contact-Press-Blog {
+                display: flex;
+            }
+
+            .i {
+                margin-left: 20px;
+            }
+
+            .second-column {
+                position: relative;
+                top: 50px;
+                left: -101px;
+            }
+
+            .contain-er {
+                position: relative;
+                left: -55px;
+            }
+
+            .Contact {
+                margin: 0 14px 0 14px;
+            }
+
+            .Press {
+                margin-right: 14px;
+            }
+
+            .Help {
+                margin-left: 14px;
+            }
+            .fourth-column {
+                position: relative;
+                right: 19px;
+                top: 30px;
+            }
+        }
